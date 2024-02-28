@@ -1,0 +1,52 @@
+message:
+  prefix: "[Rangos] "
+  no-permissions: "no tienes permisos para usar este comando"
+  announcer:
+    msg:
+      - '&e&lCompra Un Rango Aqui'
+    hover:
+      - ' '
+      - ' §d§l      Rangos Vips'
+      - ' '
+      - '§fMira los rangos que estan en nuestra'
+      - '§ftienda web oficial del servidor aqui.'
+      - ' '
+      - '§a§l¡Click aqui para ver la tienda web!'
+      - ' '
+  rank-user:
+    admin-msg:
+      priority:
+        - "Se actualizó la prioridad del rango."
+      add:
+        - "Se agregó el rango %rank% al usuario %user% correctamente."
+      remove:
+        - "Se eliminó el rango para el usuario %user%"
+      color:
+        - "Se cambio el color del usuario %user%"
+      suffix:
+        - "El suffix del jugador ahora es %suffix%"
+      prefix:
+        - "El prefix del jugador ahora es %prefix%"
+      info:
+        - "-----------------"
+        - "Usuario: %user%"
+        - "Rango: %rank%"
+        - "Prefix: %user_prefix%"
+        - "Duración: %duration%"
+        - "-------------------"
+    user-msg:
+      add:
+        - "Se te agregó el rango %rank% a tu cuenta, por %duration%"
+      remove:
+        - 'Tu rango fue eliminado'
+      url: discord.gg/epiclol
+      remove-hover:
+        - ' '
+        - ' &a&l   Informacion comun'
+        - ' '
+        - '&ftal vez este rango no era para ti'
+        - '&fpero pudo ser un error o otra cosa.'
+        - ' '
+        - '&d&l¡Click aqui para ir a discord!'
+        - ' '
+        - '&f¡Para abrir discord y crear ticket!'

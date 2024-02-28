@@ -1,0 +1,10 @@
+name: Ranks
+version: ${project.version}
+main: obed.me.ranks.Ranks
+api-version: 1.17
+load: STARTUP
+loadbefore: [ PlaceHolderAPI ]
+softdepend: [ PlaceHolderAPI ]
+authors: [ obedmz ]
+description: Rank System
+website: obedmz.github.io
